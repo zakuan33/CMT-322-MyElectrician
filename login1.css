@@ -1,0 +1,382 @@
+body{
+    margin: 0;
+    background-color: rgb(223, 223, 223);
+}
+
+.background{
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size:cover;
+    background-position: center;
+}
+
+.header {
+    height: 90px;
+    width: 100%;
+    background-color:rgba(1, 0, 61, 0.774);
+    position: relative;
+    right: 0;
+    color: ghostwhite;
+    text-indent: 4cm;
+    font-size: 20px;
+
+}
+
+.header h1{
+    position:relative;
+    font-size: 20px;
+    bottom: 55px;
+    margin-top: 0px;
+    right: 70px;
+}
+
+.footer {
+    position:relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+
+}
+.footer h1,h5
+{
+    position:relative;
+    color: rgb(0, 0, 0);
+    text-align:left;
+    text-indent: 30px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    word-spacing: 3px;
+    font-size: 20px;
+
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 16px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #040a66;
+
+}
+
+.button3{
+    position: relative;
+    right:600px;
+    top:50px;
+    /* margin-right: 20px; */
+}
+
+.button4{
+    position: relative;
+    right:430px;
+    top:50px;
+}
+.button4:hover{
+    background-color: #8c00ff;
+    color: rgb(255, 255, 255);
+}
+.button3:hover{
+    background-color: #8c00ff;
+    color: rgb(255, 255, 255);
+}
+
+.button1{
+    position:absolute;
+    top: 10px;
+    background: rgb(117, 95, 240);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border: 3px solid #2e006b;
+    right: 80px;
+}
+
+.button1:hover{
+    background-color: #00ff00;
+    color: rgb(0, 0, 0);
+
+}
+
+.button2{
+    position:absolute;
+    bottom: 20px;
+    right: 80px;
+    background-color:rgba(1, 0, 61, 0.527);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.button2:hover{
+    background-color:rgba(196, 180, 255, 0.925);
+    color: rgb(0, 0, 0);
+}
+
+.electrician{
+    width:254px;
+    height: 274px;
+    position: relative;
+    right: 120px;
+
+}
+.employer{
+    width:280px;
+    height: 300px;
+    position: relative;
+    right: 60px;
+}
+
+.header a{
+    position:absolute;
+    bottom: 30px;
+    right: 100px;
+    font-size: 30px;
+}
+/* unvisited link */
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(0, 247, 21);
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(255, 251, 0);
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+input:hover{
+    color: rgb(255, 251, 0);
+}
+
+.login{
+    position: relative;
+    bottom: 40px;
+    right: 800px;
+    width: 80px;
+    height: 80px;
+
+}
+.logo{
+    position: relative;
+    right: 150px;
+    height: 80px;
+    width: 80px;
+}
+.images{
+    position:absolute;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.images img{
+    width:250px;
+    height:250px;
+    margin-left: 20px;
+
+}
+
+.pg1{
+    position:relative;
+    left: 900px;
+    font-size: 50px;
+}
+
+.pg1 h4{
+    margin-bottom: 0;
+}
+.form-inline input{
+    font-size: 12px;
+}
+.form-inline label{
+    font-size: 15px;
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.col-10{
+    /* font-size: 15px;    */
+    float: left;
+    width: 10%;
+    margin-top: 12px;
+    color: white;
+    margin-left: 25px;
+
+}
+.col-8{
+    float: left;
+    width: 7%;
+    margin-top: 12px;
+    color: white;
+    margin-left: 25px;
+}
+.col-15{
+    float: left;
+    width: 15%;
+    margin-top: 12px;
+    color: white;
+    resize: vertical;
+}
+.col-15 input[type="text"]{
+    background: rgb(255, 255, 255);
+    outline: none;
+    color: rgb(0, 0, 0);
+    transition: 0.25s;
+    width: 90%;
+    padding: 8px;
+    border: 1px solid rgb(0, 238, 255);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.col-25 {
+    /* font-size: 15px;    */
+    float: left;
+    width: 15%;
+    margin-top: 12px;
+    color: white;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 12px;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+.form-inline{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, .col-15, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.col-75 input[type="text"]{
+    background: rgb(255, 255, 255);
+    outline: none;
+    color: rgb(0, 0, 0);
+    transition: 0.25s;
+    width: 90%;
+    padding: 8px;
+    border: 1px solid rgb(0, 238, 255);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.col-75 input[type="email"]{
+    background: rgb(255, 255, 255);
+    outline: none;
+    color: rgb(0, 0, 0);
+    transition: 0.25s;
+    width: 90%;
+    padding: 8px;
+    border: 1px solid rgb(0, 238, 255);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.col-75 input[type="password"]{
+    background: rgb(255, 255, 255);
+    outline: none;
+    color: rgb(0, 0, 0);
+    transition: 0.25s;
+    width: 90%;
+    padding: 8px;
+    border: 1px solid rgb(0, 238, 255);
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.container, .container2{
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: rgba(0, 7, 17, 0.69);
+}
+
+input[type=submit]:hover{
+    background-color: #00ff00;
+    color: rgb(0, 0, 0);
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    margin-right: 30px;
+    background:rgba(0, 162, 255, 0.925);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.footerpg {
+    height: 50px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+
+}
+
+.error{
+    color: yellow;
+}
+
+
+.electrician{
+    width:254px;
+    height: 274px;
+    position: relative;
+    right: 120px;
+
+}
+.employer{
+    width:280px;
+    height: 300px;
+    position: relative;
+    right: 60px;
+}
+
+/*.role label{*/
+/*    color: white;*/
+/*}*/

@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+.PageContainer{
+    height: 1500px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.rowPersonal.h2
+{
+    text-align: center;
+}
+
+.rowCard1 {/* define outer layer of card */
+    width: 95%;/*specify outer layer of card*/
+    height: 180px;/*specify outer layer of card*/
+    margin: 25px;
+    float: left;/* starts from left to right */
+    background-color: #ffffff; /* bg color of inner layer*/
+    border-radius: 10px; /* make the border of the box a bit round*/
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* shadow for box*/
+    transition: 0.3s;
+    color: #000000;
+    line-height: 0.5;
+}
+
+.rowCard2 {/* define outer layer of card */
+    width: 95%;/*specify outer layer of card*/
+    height: 400px;/*specify outer layer of card*/
+    margin: 25px;
+    float: left;/* starts from left to right */
+    background-color: #ffffff; /* bg color of inner layer*/
+    border-radius: 10px; /* make the border of the box a bit round*/
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* shadow for box*/
+    transition: 0.3s;
+    color: #000000;
+    line-height: 0.5;
+}
+
+/* Float four columns side by side */
+.column1Personal {
+    float: left;
+    width: 45%;
+    padding: 0 10px;
+    margin: 25px;
+    background-color: #ffffff;
+    border-radius: 10px; /* make the border of the box a bit round*!*/
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* shadow for box*/
+    transition: 0.3s;
+    color: #000000;
+    line-height: 0.5;
+}
+
+.column2Personal {
+    float: left;
+    width: 46%;
+    padding: 0 10px;
+    margin: 25px;
+    background-color: #ffffff;
+    border-radius: 10px; /* make the border of the box a bit round*!*/
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* shadow for box*/
+    transition: 0.3s;
+    color: #000000;
+    line-height: 0.5;
+}
+
+.column3Personal{
+    float: left;
+    width: 95%;
+    padding: 0 10px;
+    margin: 25px;
+    background-color: #ffffff;
+    border-radius: 10px; /* make the border of the box a bit round*!*/
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* shadow for box*/
+    transition: 0.3s;
+    color: #000000;
+    line-height: 0.5;
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowPersonal {
+    margin: 0px -5px;
+}
+
+/* Clear floats after the columns */
+.rowPersonal:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ImgContainer
+{
+    width: 20%;/*specify outer layer of card*/
+    height: 100%;/*specify outer layer of card*/
+    float: left;
+    background-color: #68a3fd;
+}
+
+.EDetails{
+    text-align: center;
+}
+
+.cardPersonal.h2
+{
+    padding: 16px;
+    color: black;
+}
+
+.headingTitle{
+    margin-right: auto;
+    font-size: xx-large;
+
+}
